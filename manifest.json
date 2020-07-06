@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "English to Dog",
+  "description": "Converts english to dog",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
